@@ -1,0 +1,158 @@
+* {box-sizing: border-box;}
+body{
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+}
+
+.topo{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+    
+  
+}
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    
+}
+.link-banner{
+    margin: 0 40px 0 0;
+    font-size: 24px;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.link-banner span {
+    color: #6592c9;
+}
+.link-topo {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 15px 10px 15px;
+    color: #3d3d3d
+}
+.tamanho-maximo-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.img-menu{
+    background-image: url('img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28vh;
+    width: 100%;
+
+  
+}
+.tamanho{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.titulo-descricao {
+    
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.titulo-descricao h2{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+.titulo-descricao p{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.conteudo-img{
+  display: flex;
+  
+  justify-content: space-between;
+  
+}
+.img-quarto{ 
+  width: 33%;
+  padding-bottom: 10px;
+
+}
+
+.conteudo-descricao h3{
+  text-align: center;
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+.conteudo-lista{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.conteudo-lista li{
+  width: 25%;
+  text-align: left;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+.rodape-copyright {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #3b7863;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+  }
+  
+  .rodape {
+    background-color: #49997d;
+    color:#fff;
+    
+  }
+  
+  .rodape h4 {
+    font-size: 22px;
+  }
+  
+  .rodape-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .rodape-info {
+    width: 23%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .rodape-link{
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .rodape-icone {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .rodape-info a{
+    text-decoration: none;
+    color: #fff;
+  }

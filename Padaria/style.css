@@ -1,0 +1,68 @@
+body{
+    background-color: #f4f0e5;
+    margin: 0px;
+    font-size: Tahoma;
+}
+
+.secao{
+    width: 700px;
+    text-align: center;
+    margin: 10px auto;
+    
+}
+.secao-borda{
+    border-bottom: 2px solid rgb(193, 175, 130);
+    padding: 10px 0px;
+}
+.img-logo-padaria{
+    width: 180px;
+}
+
+a{
+    color: #542f0c;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px;
+}
+h1{
+    padding-top: 20px;
+    font-size: 24px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+h2{
+    color: rgb(235, 156, 37);
+    font-weight: normal;
+
+}
+.img-logo{
+    width: 700px;
+}
+.secao-produtos{
+    background-color: rgb(245, 154, 70);
+    color: rgb(245, 239, 223);;
+    width: 700px;
+    color:white;
+    padding: 20px 0px;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img-produtos {
+    width: 350px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    margin: 10px auto;
+    width: 450px;
+    text-align: center;
+    line-height: 30px;
+}
+span{
+    font-weight: bold;
+   
+}
